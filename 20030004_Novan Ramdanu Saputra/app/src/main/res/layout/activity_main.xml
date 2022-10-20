@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Tim B"
+        android:inputType="textEmailAddress"
+        android:layout_below="@+id/Novan"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="232dp"
+        android:id="@+id/Novan"/>
+
+    <Button
+        android:id="@+id/BtnInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INPUT"
+        android:layout_below="@+id/Novan"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="355dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Tim A"
+        android:layout_marginTop="200dp"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="170dp"
+        android:id="@+id/Ramdanu"/>
+
+
+
+</RelativeLayout>
